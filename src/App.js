@@ -82,7 +82,7 @@ function App() {
     <>
       <Navbar title="TextUtils" about="About TextUtils" mode={mode} toggleMode={toggleMode} />
       <div className="container my-3">
-        <TextForm heading="Enter the text" /> 
+        <TextForm heading="Enter the text" mode={mode} /> 
       </div>
     </>
   );
